@@ -1,0 +1,5 @@
+.gallery-list {
+    display: flex;
+    height: 120vh;
+    background-color: #02353c;
+}

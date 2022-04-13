@@ -1,0 +1,5 @@
+.gallery {
+    display: flex;
+    height: 120vh;
+    background-color: #449342;
+}
