@@ -1,5 +1,51 @@
 .navigation {
     display: flex;
-    height: 20vh;
-    background-color: #d3d3d3;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    text-decoration: none;
+    padding: 0px 50px;
+    background-color: #39603d;
+}
+
+.nav-logo {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    flex: 1;
+}
+
+.logo {
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.logo:hover {
+    color: #2eaf7d;
+}
+
+.nav-links {
+    /* width: 50%; */
+    display:flex;
+    justify-content: space-evenly;
+    word-spacing: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.nav-item:hover {
+    color: #9dc88d;
 }
