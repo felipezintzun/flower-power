@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import Plant from "../../img/plant-image-home.png";
+import Plant from "../../img/sunflower-image-home.png";
 import { GiGardeningShears } from "react-icons/gi";
 import { RiPlantFill } from "react-icons/ri";
 import { IoFlowerSharp } from "react-icons/io5";
