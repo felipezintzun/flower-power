@@ -1,5 +1,29 @@
-.gallery-list {
+.gl {
+    padding: 50px 100px;
     display: flex;
-    height: 120vh;
-    background-color: #02353c;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gl-text {
+    width: 65%;
+}
+
+.gl-title {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #39603d;
+}
+
+.gl-description {
+    margin: 20px 0px;
+}
+
+.gl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
