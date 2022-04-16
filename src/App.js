@@ -16,10 +16,11 @@ function App() {
       <Navigation />
 
       <Home />
-      <Contact />
+      
       <Gallery />
       <GalleryList />
-
+      
+      <Contact />
       <Footer />
     </div>
   );
