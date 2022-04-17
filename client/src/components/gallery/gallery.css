@@ -1,5 +1,55 @@
 .gallery {
     display: flex;
-    height: 120vh;
-    background-color: #449342;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid #ececec;
+    border-radius: 10px 10px;
+    overflow: hidden;
+    
+}
+
+/* .gallery-browser {
+    height: 20px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+} */
+
+/* .projects-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 3px;
+} */
+
+.gallery-img {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.flower-info {
+    padding: 2px 16px;
+    background-color: #39603d;
+}
+.card {
+    /* display: none; */
+}
+
+.gallery:hover {
+    position:relative;
+    border: none;
+    /* top:-25px;
+    left:-35px; */
+    width:320px;
+    /* height:auto; */
+    /* display:block; */
+    /* z-index:999; */
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }

@@ -24,7 +24,7 @@ function Contact () {
             <div className="cwrapper-right">
                 <p className="contact-description">
                 Our work doesn’t end here on the web. We are here to help you with any and all of your plant care questions.
-                Feel free to reach out to here at Flower Power, here’s how to get in touch.
+                Feel free to reach out to us here at Flower Power, here’s how to get in touch.
                 </p>
             <form className="contact-form">
                 <input type="text" placeholder="Name" name="user_name"/>
