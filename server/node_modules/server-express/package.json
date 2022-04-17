@@ -1,0 +1,23 @@
+{
+  "name": "server-express",
+  "version": "1.0.2",
+  "description": "Server de express",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spancavil/Backend/tree/main/7-NPM%20e%20intro%20a%20Express/newModuleNPM"
+  },
+  "keywords": [
+    "server",
+    "express"
+  ],
+  "author": "spancavil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
