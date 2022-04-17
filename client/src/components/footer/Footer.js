@@ -4,8 +4,7 @@ import "./footer.css";
 function Footer () {
     return (
         <div className="footer">
-          Foot
-
+          <div className="footer-item">Flower Power, 2022 All Rights Reserved</div>
         </div>
 
     )
