@@ -30,15 +30,26 @@
     width: 100%;
     top: 50%;
     left: 50%;
-
 }
+
+
+
+.flower-info {
+    padding: 2px 16px;
+    background-color: #39603d;
+}
+.card {
+    /* display: none; */
+}
+
 .gallery:hover {
     position:relative;
+    border: none;
     /* top:-25px;
     left:-35px; */
     width:320px;
     /* height:auto; */
-    display:block;
-    z-index:999;
+    /* display:block; */
+    /* z-index:999; */
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }

@@ -7,9 +7,9 @@ function GalleryList () {
   return (
       <div className="gl">
           <div className="gl-text">
-              <h1 className="gl-title">Our Community</h1>
+              <h1 className="gl-title">The Garden</h1>
               <p className="gl-description">
-              Flowers Below
+              We could learn a lot from plants. Browse The Garden and see what our community is saying. Feel free to share your experiences.
               </p>
           </div>
           <div className="gl-list">
