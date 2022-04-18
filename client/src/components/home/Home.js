@@ -12,7 +12,7 @@ function Home () {
         <div className="home">
           <div className="h-left">
             <div className="h-left wrapper">
-              <h2 className="h-intro">Let's Grow</h2>
+              <h2 className="h-intro">Let's Grow test</h2>
             
             <div className="h-description">
             Flower Power is here to create a plant-based community for you and your plants
