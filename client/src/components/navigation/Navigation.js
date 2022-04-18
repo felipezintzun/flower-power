@@ -3,10 +3,10 @@ import "./navigation.css";
 
 function Navigation () {
     return (
-        <div className="navigation">
-          <div className="nav-logo">
+        <header className="navigation">
+          <h1 className="nav-logo">
             Flower Power
-          </div>
+          </h1>
 
         <div className="nav-links">
         
@@ -17,7 +17,7 @@ function Navigation () {
         </div>
           
 
-        </div>
+        </header>
 
     )
 }
