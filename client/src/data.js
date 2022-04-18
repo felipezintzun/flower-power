@@ -74,5 +74,10 @@ export const gallery = [
         img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/milk-thistle.jpg?raw=true",
         link: "",
     },
+    {
+        id: 16,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/berries.jpg?raw=true",
+        link: "",
+    },
 
     ];
