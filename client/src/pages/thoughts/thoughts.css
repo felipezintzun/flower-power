@@ -1,0 +1,38 @@
+
+  .thoughts {
+    padding: 50px 100px;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: #3fd0c9; */
+}
+  
+  /* CARDS */
+  .card {
+    margin: 0 0 20px 0;
+    border: 3px solid #39603d;
+    border-radius: var(--border-radius);
+    background-color: white;
+    color: #39603d;
+  }
+  
+  .card-header {
+    color: white;
+    margin: 0;
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #39603d;
+    padding: 0.625rem;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  }
+  
+  .card-body {
+    padding: 2.5%;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    /* font-weight: ; */
+  }
+  
+  
+  

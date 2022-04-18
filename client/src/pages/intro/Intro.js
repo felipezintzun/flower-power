@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./intro.css";
 import Plant from "../../img/sunflower-image-home.png";
 import { GiGardeningShears } from "react-icons/gi";
 import { RiPlantFill } from "react-icons/ri";
@@ -7,7 +7,7 @@ import { IoFlowerSharp } from "react-icons/io5";
 
 
 
-function Home () {
+function Intro () {
     return (
         <div className="home">
           <div className="h-left">
@@ -51,4 +51,4 @@ function Home () {
     )
 }
 
-export default Home 
+export default Intro
