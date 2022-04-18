@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import { Link } from 'react-router-dom';
 import Plant from "../../img/sunflower-image-home.png";
 import { GiGardeningShears } from "react-icons/gi";
 import { RiPlantFill } from "react-icons/ri";
@@ -9,6 +10,7 @@ import { IoFlowerSharp } from "react-icons/io5";
 
 function Intro () {
     return (
+        <Link>
         <div className="home">
           <div className="h-left">
             <div className="h-left wrapper">
@@ -47,7 +49,7 @@ function Intro () {
             </div>
 
         </div>
-
+        </Link>
     )
 }
 

@@ -29,7 +29,8 @@ const Navigation = () => {
             </>
           ) : (
             <>
-              <Link className="nav-item" to="/galleryList">The Garden</Link>
+              <Link className="nav-item" to="/garden">The Garden</Link>
+              <Link className="nav-item" to="/contact">Contact Us</Link>
               <Link className="nav-item" to="/login">Login</Link>
               <Link className="nav-item" to="/signup">Signup</Link>
 

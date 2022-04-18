@@ -1,3 +1,4 @@
+import React from 'react';
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -48,7 +49,7 @@ function App() {
 
       <Route exact path="/" component={Intro} />
       <Route exact path="/thoughts" component={Thoughts} />
-      <Route exact path="/gallerylist" component={GalleryList} />
+      <Route exact path="/garden" component={GalleryList} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={Signup} />

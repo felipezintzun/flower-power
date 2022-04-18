@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { ADD_USER } from '../../utils/mutations.js';
 import Auth from '../../utils/auth.js';
+import "./signup.css";
 
 
 const Signup = () => {
@@ -34,23 +35,25 @@ const Signup = () => {
   };
 
   return (
-    <main className='flex-row justify-center mb-4'>
-      <div className='col-12 col-md-6'>
-        <div className='card'>
-          <h4 className='card-header'>Sign Up</h4>
-          <div className='card-body'>
-            <form onSubmit={handleFormSubmit}>
+    <main className="signup">
+      {/* <div className='col-12 col-md-6'> */}
+        <div className="signup-wrapper">
+        <div className="swrapper-left"></div>
+        <div className="swrapper-right">
+        <h1 className="signup-title">Sign Up</h1>
+          <p className='signup-description'>
+          Sign up to join our community of plant enthusiast!
+          </p>
+            <form className="signup-form" onSubmit={handleFormSubmit}>
               <input
-                className='form-input'
-                placeholder='Your username'
-                name='username'
-                type='username'
-                id='username'
+                placeholder="Your username"
+                name="username"
+                type="username"
+                id="username"
                 value={formState.username}
                 onChange={handleChange}
               />
               <input
-                className='form-input'
                 placeholder='Your email'
                 name='email'
                 type='email'
@@ -59,7 +62,6 @@ const Signup = () => {
                 onChange={handleChange}
               />
               <input
-                className='form-input'
                 placeholder='******'
                 name='password'
                 type='password'
@@ -67,14 +69,15 @@ const Signup = () => {
                 value={formState.password}
                 onChange={handleChange}
               />
-              <button className='btn d-block w-100' type='submit'>
+              <button className="submit-btn" type="submit">
                 Submit
               </button>
             </form>
             {error && <div>Sign up failed</div>}
           </div>
+          
         </div>
-      </div>
+      {/* </div> */}
     </main>
   );
 };

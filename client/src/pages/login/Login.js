@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../../utils/mutations.js';
 import Auth from '../../utils/auth.js';
+import "./login.css";
 
 const Login = (props) => {
   const [formState, setFormState] = useState({ email: '', password: '' });
@@ -33,11 +34,15 @@ const Login = (props) => {
   };
 
   return (
-    <main className='flex-row justify-center mb-4'>
-      <div className='col-12 col-md-6'>
-        <div className='card'>
-          <h4 className='card-header'>Login</h4>
-          <div className='card-body'>
+    <main className="login">
+      <div className="login-wrapper">
+      <div className="lwrapper-left"></div>
+        <div className='lwrapper-right'>
+        <h1 className="login-title">Login</h1>
+        <p className='login-description'>
+          Login for full access to our community of plant lovers!
+          </p>
+          <div className="login-form">
             <form onSubmit={handleFormSubmit}>
               <input
                 className='form-input'
@@ -57,7 +62,7 @@ const Login = (props) => {
                 value={formState.password}
                 onChange={handleChange}
               />
-              <button className='btn d-block w-100' type='submit'>
+              <button className="submit-btn" type='submit'>
                 Submit
               </button>
             </form>
