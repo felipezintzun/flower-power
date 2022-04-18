@@ -89,5 +89,10 @@ export const gallery = [
         img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/succulent-flower.jpg?raw=true",
         link: "",
     },
+    {
+        id: 19,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/flowerpot-shelf.JPG",
+        link: "",
+    },
 
     ];
