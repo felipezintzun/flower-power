@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
 import { ADD_THOUGHT } from '../../utils/mutations.js';
 import { QUERY_THOUGHTS, QUERY_ME } from '../../utils/queries.js';
+import "./thoughtForm.css";
 
 const ThoughtForm = () => {
 
@@ -57,7 +58,7 @@ const handleChange = event => {
   return (
     <div>
 
-        <p className={`m-0 ${characterCount === 280 || error ? 'text-error' : ''}`}>
+        <p className={`character-text ${characterCount === 280 || error ? 'text-error' : ''}`}>
         Character Count: {characterCount}/280
         {error && <span className="ml-2">Something went wrong...</span>}
         </p>

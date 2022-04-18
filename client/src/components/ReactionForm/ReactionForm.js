@@ -33,28 +33,34 @@ const handleFormSubmit = async (event) => {
   };
 
   return (
-    <div>
 
-    <p className={`m-0 ${characterCount === 280 || error ? 'text-error' : ''}`}>
-        Character Count: {characterCount}/280
-        {error && <span className="ml-2">Something went wrong...</span>}
-    </p>
+    <div className="reaction-box">
 
     <form
-        className="flex-row justify-center justify-space-between-md align-stretch"
+        className="reaction-form"
         onSubmit={handleFormSubmit}
         >       
        
         <textarea
-          placeholder="Leave a reaction to this thought..."
+          placeholder="Leave a reaction..."
           value={reactionBody}
-          className="form-input col-12 col-md-9"
+          className="reaction-text"
           onChange={handleChange}
         ></textarea>
 
-        <button className="submit-btn" type="submit">
+        <div className="reaction-submit">
+
+          <button className="submit-btn" type="submit">
           Submit
-        </button>
+          </button>
+
+          <p className={`character-text ${characterCount === 280 || error ? 'text-error' : ''}`}>
+            Character Count: {characterCount}/280
+            {error && <span className="ml-2">Something went wrong...</span>}
+          </p>
+
+        </div>
+
       </form>
     </div>
   );

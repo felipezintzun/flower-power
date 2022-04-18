@@ -26,7 +26,7 @@ const Thoughts = () => {
 
     <div className="thoughts">
 
-      <div className="flex-row justify-space-between">
+      <div className="reaction-form justify-space-between">
         {loggedIn && (
               <div className="col-12 mb-3">
                 <ThoughtForm />
@@ -42,7 +42,7 @@ const Thoughts = () => {
         </div>
 
           {loggedIn && userData ? (
-            <div className="col-12 col-lg-3 mb-3">
+            <div className="singlethought col-lg-3 mb-3">
               <FriendList
                 username={userData.me.username}
                 friendCount={userData.me.friendCount}
