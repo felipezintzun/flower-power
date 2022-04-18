@@ -49,5 +49,15 @@ export const gallery = [
         img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/mouse-ear-flower.jpg?raw=true",
         link: "",
     },
+    {
+        id: 11,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/marigolds.png?raw=true",
+        link: "",
+    },
+    {
+        id: 12,
+        img: "",
+        link: "",
+    },
 
     ];
