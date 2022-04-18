@@ -5,6 +5,7 @@ import ThoughtList from '../../components/thoughtList/ThoughtList.js';
 import { QUERY_THOUGHTS, QUERY_ME_BASIC } from '../../utils/queries.js';
 import Auth from '../../utils/auth.js';
 import FriendList from '../../components/friendList/FriendList.js';
+import ThoughtForm from '../../components/ThoughtForm/ThoughtForm.js';
 
 
 const Thoughts = () => {
@@ -25,26 +26,35 @@ const Thoughts = () => {
 
     <div className="thoughts">
 
-    <div className={`col-12 mb-3 ${loggedIn && 'col-lg-8'}`}>
-        {loading ? (
-          <div>Loading...</div>
-        ) : (
-          <ThoughtList thoughts={thoughts} title="Plant Talk" />
-        )}
+      <div className="flex-row justify-space-between">
+        {loggedIn && (
+              <div className="col-12 mb-3">
+                <ThoughtForm />
+              </div>
+            )}
+            <div className={`col-12 mb-3 ${loggedIn && 'col-lg-8'}`}>
+          {loading ? (
+            <div>Loading...</div>
+          ) : (
+            <ThoughtList thoughts={thoughts} title="Some Feed for Thought(s)..." />
+          )}
+
+        </div>
+
+          {loggedIn && userData ? (
+            <div className="col-12 col-lg-3 mb-3">
+              <FriendList
+                username={userData.me.username}
+                friendCount={userData.me.friendCount}
+                friends={userData.me.friends}
+              />
+            </div>
+          ) : null}
+          
       </div>
 
-      {loggedIn && userData ? (
-        <div className="col-12 col-lg-3 mb-3">
-          <FriendList
-            username={userData.me.username}
-            friendCount={userData.me.friendCount}
-            friends={userData.me.friends}
-          />
-        </div>
-      ) : null}
-    </div>
-
-  </main>
+      </div>
+    </main>
 
   );
 };
