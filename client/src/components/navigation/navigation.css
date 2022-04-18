@@ -1,3 +1,9 @@
+
+a:link { text-decoration: none; }
+/* a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; } */
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -14,6 +20,7 @@
     font-size: 30px;
     color: white;
     flex: 1;
+    text-decoration: none;
 }
 
 .logo {
@@ -44,6 +51,7 @@
     margin-left: 10px;
     padding: 10px;
     color: white;
+    word-spacing: -.08rem;
 }
 
 .nav-item:hover {
