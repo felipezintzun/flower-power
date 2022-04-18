@@ -5,6 +5,7 @@ import { QUERY_THOUGHT } from '../../utils/queries.js';
 import ReactionList from '../../components/ReactionList/ReactionList.js';
 import Auth from '../../utils/auth.js';
 import ReactionForm from '../../components/ReactionForm/ReactionForm.js';
+import "./singleThought.css";
 
 
 const SingleThought = props => {
@@ -22,17 +23,22 @@ const SingleThought = props => {
   }
 
   return (
-    <div>
-      <div className="card mb-3">
-        <p className="card-header">
+    <div className="singlethought">
+      <div className="thought-card">
+        <p className="thought-header">
+
+        <div className="thought-body">
+          <p>{thought.thoughtText}</p>
+        </div>
+
+        <div className="thought-date">
+        
           <span style={{ fontWeight: 700 }} className="text-light">
             {thought.username}
           </span>{' '}
-          thought on {thought.createdAt}
+          posted {thought.createdAt}</div>
         </p>
-        <div className="card-body">
-          <p>{thought.thoughtText}</p>
-        </div>
+        
       </div>
 
       {thought.reactionCount > 0 && <ReactionList reactions={thought.reactions} />}

@@ -7,6 +7,7 @@ import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_USER, QUERY_ME } from '../../utils/queries';
 import { ADD_FRIEND } from '../../utils/mutations.js';
 import ThoughtForm from '../../components/ThoughtForm/ThoughtForm.js';
+import "./profile.css";
 
 
   const Profile = () => {

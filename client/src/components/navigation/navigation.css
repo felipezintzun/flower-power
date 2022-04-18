@@ -32,8 +32,8 @@ a:active { text-decoration: none; } */
     /* padding-left: 20px; */
 }
 
-.logo:hover {
-    color: #2eaf7d;
+.nav-logo:hover {
+    color: #f1b24a;
 }
 
 .nav-links {

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useMutation } from '@apollo/client';
-import { ADD_REACTION } from '../../utils/mutations.js'
+import { ADD_REACTION } from '../../utils/mutations.js';
+import "./reactionForm.css";
 
 const ReactionForm = ({ thoughtId }) => {
 
@@ -51,7 +52,7 @@ const handleFormSubmit = async (event) => {
           onChange={handleChange}
         ></textarea>
 
-        <button className="btn col-12 col-md-3" type="submit">
+        <button className="submit-btn" type="submit">
           Submit
         </button>
       </form>
