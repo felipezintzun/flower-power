@@ -56,7 +56,7 @@ export const gallery = [
     },
     {
         id: 12,
-        img: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/brown-eyed-susans.png?raw=true",
         link: "",
     },
 
