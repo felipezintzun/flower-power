@@ -59,5 +59,10 @@ export const gallery = [
         img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/brown-eyed-susans.png?raw=true",
         link: "",
     },
+    {
+        id: 13,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/pink-flower.png?raw=true",
+        link: "",
+    },
 
     ];
