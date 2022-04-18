@@ -64,5 +64,10 @@ export const gallery = [
         img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/pink-flower.png?raw=true",
         link: "",
     },
+    {
+        id: 14,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/spiky-yellow-flower.jpg?raw=true",
+        link: "",
+    },
 
     ];
