@@ -36,7 +36,10 @@ const Login = (props) => {
   return (
     <main className="login">
       <div className="login-wrapper">
-      <div className="lwrapper-left"></div>
+      <div className="lwrapper-left">
+
+        
+      </div>
         <div className='lwrapper-right'>
         <h1 className="login-title">Login</h1>
         <p className='login-description'>
