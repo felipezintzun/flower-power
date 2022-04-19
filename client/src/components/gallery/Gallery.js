@@ -1,8 +1,10 @@
-import React from "react";
+import React ,{useState}from "react";
 import "./gallery.css";
 
 function Gallery ({img,link,name}) {
-  return (
+  const[displayCard,setDisplayCard] = useState(true)
+  return (<>
+    {displayCard && (
 
       <div className="gallery">
 
@@ -19,14 +21,17 @@ function Gallery ({img,link,name}) {
               <p className="flower-description">This is a post about this flower</p>
             </div>
 
+            <button onClick={()=> setDisplayCard(!displayCard)}>Thoughts</button>
+
           </article>
 
           </section>
+  </div> ) }
+  {!displayCard && (
+    <Thoughts flower={name} />    )}
 
-  </div>
-
-  )
+  
+  </>)
 }
-
 
 export default Gallery

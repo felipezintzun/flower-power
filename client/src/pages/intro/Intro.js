@@ -26,15 +26,15 @@ function Intro () {
 
             <div className="icon-wrapper">
               <div className="icon-cont">
-                <a className='i-icon' href="" target="_blank" rel="noreferrer"><GiGardeningShears size='50'/></a>
+                <a className='i-icon' href="/" target="_blank" rel="noreferrer"><GiGardeningShears size='50'/></a>
               </div>    
 
               <div className="icon-cont">
-                <a className='i-icon' href="" target="_blank" rel="noreferrer"> <RiPlantFill size='50'/></a>
+                <a className='i-icon' href="/" target="_blank" rel="noreferrer"> <RiPlantFill size='50'/></a>
               </div>
 
               <div className="icon-cont">
-                <a className='i-icon' href="" target="_blank" rel="noreferrer"> <IoFlowerSharp size='50'/></a>
+                <a className='i-icon' href="/" target="_blank" rel="noreferrer"> <IoFlowerSharp size='50'/></a>
               </div>
               
             </div>
