@@ -1,8 +1,8 @@
 
 a:link { text-decoration: none; }
-/* a:visited { text-decoration: none; }
+a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; } */
+/* a:active { text-decoration: none; } */
 
 .navigation {
     display: flex;
@@ -52,6 +52,10 @@ a:active { text-decoration: none; } */
     padding: 10px;
     color: white;
     word-spacing: -.08rem;
+}
+
+.visited {
+    text-decoration: none;
 }
 
 .nav-item:hover {

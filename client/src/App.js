@@ -1,8 +1,8 @@
 import React from 'react';
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
+
 import Navigation from './components/navigation/Navigation.js';
 import Intro from './pages/intro/Intro.js';
 import Thoughts from './pages/thoughts/Thoughts.js';

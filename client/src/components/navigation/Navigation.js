@@ -22,10 +22,13 @@ const Navigation = () => {
         <nav className="nav-links">
           {Auth.loggedIn() ? (
             <>
-              <Link to="/profile">Me</Link>
-              <a href="/" onClick={logout}>
+              <Link className="nav-item" to="/garden">The Garden</Link>
+              <Link to="/profile" className="nav-item">My Profile</Link>
+              <Link className="nav-item" to="/contact">Contact Us</Link>
+              <a href="/" className="nav-item" onClick={logout}>
                 Logout
               </a>
+              
             </>
           ) : (
             <>
