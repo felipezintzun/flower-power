@@ -39,6 +39,8 @@ const Signup = () => {
       {/* <div className='col-12 col-md-6'> */}
         <div className="signup-wrapper">
         <div className="swrapper-left"></div>
+          {/* <div><img src="https://images.unsplash.com/photo-1587334274328-64186a80aeee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=581&q=80"></img> */}
+          {/* </div> */}
         <div className="swrapper-right">
         <h1 className="signup-title">Sign Up</h1>
           <p className='signup-description'>
