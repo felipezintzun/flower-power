@@ -12,9 +12,11 @@ function GalleryList () {
               We could learn a lot from plants. Browse The Garden and see what our community is saying. Feel free to share your experiences.
               </p>
           </div>
+
+
           <div className="gl-list">
               {gallery.map((item) => (
-                  <Gallery key={item.id} img={item.img} link={item.link}/>
+                  <Gallery key={item.id} img={item.img} link={item.link} name={item.name}/>
               ))}
                   
           </div>

@@ -3,11 +3,13 @@
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 40vh;
+    height: 100%;
     margin: 20px 10px;
     border: 2px solid #ececec;
     border-radius: 10px 10px;
     overflow: hidden;
+    text-align: left;
+    /* padding: 0px 0px 23px 0px; */
     
 }
 
@@ -30,16 +32,43 @@
     width: 100%;
     top: 50%;
     left: 50%;
+    display: flex;
+    flex-direction: flex-start;
 }
 
-
-
-.flower-info {
+/* .flower-info {
     padding: 2px 16px;
     background-color: #39603d;
+} */
+
+/* .flower-card {
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+} */
+
+/* .flower-cards {
+    display: flex-wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.card-text {
+    padding: 0px 0px 0px 15px;
 }
-.card {
-    /* display: none; */
+
+.flower-name {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #39603d;
+    padding: 0px 0px 0px 0px;
+}
+
+.flower-description {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #808080;
+    padding: 0px 0px 12px 0px;
 }
 
 .gallery:hover {
@@ -47,9 +76,9 @@
     border: none;
     /* top:-25px;
     left:-35px; */
-    width:320px;
+    width:305px;
     /* height:auto; */
     /* display:block; */
-    /* z-index:999; */
+    z-index:999;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }

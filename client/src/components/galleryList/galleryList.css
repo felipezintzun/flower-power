@@ -28,5 +28,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    /* padding: 0px 0px 0px 0px; */
     justify-content: space-between;
 }
