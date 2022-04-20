@@ -64,7 +64,8 @@ export const gallery = [
     {
         id: 11,
         img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/marigolds.png?raw=true",
-        link: "",
+        name: "",
+        description: "",
     },
     {
         id: 12,
