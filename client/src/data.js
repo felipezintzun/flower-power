@@ -1,7 +1,7 @@
 export const gallery = [
     {
         id: 1,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/orchid-flower.jpg?raw=true",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/flower-post/client/src/img/orchid-flower.jpg?raw=true",
         link: "",
         name: "Orchid",
         description: "",
