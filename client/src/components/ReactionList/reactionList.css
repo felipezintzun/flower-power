@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    background-color: beige;
+    padding: 1%;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.card-header {
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    margin: 5px 10px;
+    padding-bottom: 1%;
+    
+}
+
+.User-info {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    /* padding: 0.1rem; */
+}
+
+.thought-card {
+    margin: 0 0 20px 0;
+    border: 3px solid #39603d;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #39603d;
+    color: #39603d;
+    width: 65%;
+}
+
+.thought-date {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #808080;
+    font-size: 15px;
+    margin: 0px 15px;
+    padding-bottom: 10px;
+}
