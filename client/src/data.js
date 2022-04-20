@@ -75,8 +75,9 @@ export const gallery = [
     },
     {
         id: 13,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/pink-flower.png?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/pink-flower.jpg?raw=true",
+        name: "Pink Flower",
+        description: "",
     },
     {
         id: 14,
