@@ -61,5 +61,50 @@ export const gallery = [
         name: "Coreopsis, Mouse-Ear",
         description: "",
     },
+    {
+        id: 11,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/marigolds.png?raw=true",
+        link: "",
+    },
+    {
+        id: 12,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/brown-eyed-susans.png?raw=true",
+        link: "",
+    },
+    {
+        id: 13,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/pink-flower.png?raw=true",
+        link: "",
+    },
+    {
+        id: 14,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/spiky-yellow-flower.jpg?raw=true",
+        link: "",
+    },
+    {
+        id: 15,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/milk-thistle.jpg?raw=true",
+        link: "",
+    },
+    {
+        id: 16,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/berries.jpg?raw=true",
+        link: "",
+    },
+    {
+        id: 17,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/tall-succulent.jpg?raw=true",
+        link: "",
+    },
+    {
+        id: 18,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/succulent-flower.jpg?raw=true",
+        link: "",
+    },
+    {
+        id: 19,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/flowerpot-shelf.JPG?raw=true",
+        link: "",
+    },
 
     ];
