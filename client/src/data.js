@@ -61,5 +61,53 @@ export const gallery = [
         name: "Coreopsis, Mouse-Ear",
         description: "",
     },
+    {
+        id: 11,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/cholla.jpeg?raw=true",
+        name: "Cholla",
+        description: "",
+    },
+    {
+        id: 12,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/orange-mum.jpeg?raw=true",
+        name: "Chrysanthemum",
+        description: "",
+    },
+    {
+        id: 13,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/begonia.jpeg?raw=true",
+        name: "Begonia",
+        description: "",
+    },
+    {
+        id: 14,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/sugar-moon-rose.jpeg?raw=true",
+        name: "Sugar moon rose",
+        description: "",
+    },
+    {
+        id: 15,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/kalanchoe.jpeg?raw=true",
+        name: "Kalanchoe",
+        description: "",
+    },
+    {
+        id: 16,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/liz-taylor-rose.jpeg?raw=true",
+        name: "Liz Taylor Rose",
+        description: "",
+    },
+    {
+        id: 17,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/turks-cap.jpeg?raw=true",
+        name: "Turks cap",
+        description: "",
+    },
+    {
+        id: 18,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/gallery/client/src/img/hosta.jpeg?raw=true",
+        name: "Hosta",
+        description: "",
+    }
 
     ];
