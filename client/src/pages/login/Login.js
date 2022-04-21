@@ -37,9 +37,9 @@ const Login = (props) => {
     <main className="login">
       <div className="login-wrapper">
       <div className="lwrapper-left">
-
-        
+        <img src="https://media.istockphoto.com/photos/everyday-should-be-earth-day-picture-id869262278?k=20&m=869262278&s=612x612&w=0&h=X7D1hW44LxOroe8HJ90V8iiNlOKriWrkeuayLoHzLiU="></img>
       </div>
+
         <div className='lwrapper-right'>
         <h1 className="login-title">Login</h1>
         <p className='login-description'>
