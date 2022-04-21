@@ -17,6 +17,9 @@
 
 .swrapper-left {
     flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .swrapper-right {
@@ -26,6 +29,7 @@
     /* align-items: center; */
     justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .signup-title {
