@@ -36,22 +36,32 @@ const Thoughts = () => {
           {loading ? (
             <div>Loading...</div>
           ) : (
-            <ThoughtList thoughts={thoughts} title="Join The Flower Talk" />
+
+            
+            <div className="thought-li">
+            <ThoughtList className="fl-tlk-title" thoughts={thoughts} title="Join The Flower Talk" />
+
+              <div className="friend-list">
+                {loggedIn && userData ? (
+                  <div className="friends">
+                    <FriendList
+                      username={userData.me.username}
+                      friendCount={userData.me.friendCount}
+                      friends={userData.me.friends}
+                    />
+                  </div>
+                ) : null}
+                
+            </div>
+
+            </div>
           )}
 
         </div>
+        </div>
 
-          {loggedIn && userData ? (
-            <div className="singlethought">
-              <FriendList
-                username={userData.me.username}
-                friendCount={userData.me.friendCount}
-                friends={userData.me.friends}
-              />
-            </div>
-          ) : null}
-          
-      </div>
+
+
 
       </div>
     </main>

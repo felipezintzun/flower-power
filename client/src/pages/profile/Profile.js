@@ -52,26 +52,37 @@ import "./profile.css";
   return (
 
 
-    <div>
+    <div className="profile-main">
+
       <div className="profile">
-        <h2 className="bg-dark text-secondary p-3 display-inline-block">
+
+      
+      <div className="profile-title">
+        <h2 className="profile-h">
           Viewing {userParam ? `${user.username}'s` : 'your'} profile.
         </h2>
+      </div>
 
+
+      <div className="new-thoughts">
+        <div className="thought-form">{!userParam && <ThoughtForm />}</div>
+      </div>
+
+      <div className="friends">
         {userParam && (
-          <button className="btn ml-auto" onClick={handleClick}>
+          <button className="friend-btn" onClick={handleClick}>
             Add Friend
           </button>
         )}
 
       </div>
 
-      <div className="flex-row justify-space-between mb-3">
-          <div className="col-12 mb-3 col-lg-8">
-            <ThoughtList thoughts={user.thoughts} title={`${user.username}'s thoughts...`} />
+      <div className="thought-li">
+          <div className="">
+            <ThoughtList thoughts={user.thoughts} title={`${user.username}'s flower talk`} />
           </div>
 
-          <div className="col-12 col-lg-3 mb-3">
+          <div className="friends-list">
             <FriendList
               username={user.username}
               friendCount={user.friendCount}
@@ -80,8 +91,8 @@ import "./profile.css";
           </div>
         </div>
 
-        <div className="mb-3">{!userParam && <ThoughtForm />}</div>
-        
+        </div>
+
     </div>
   );
 };

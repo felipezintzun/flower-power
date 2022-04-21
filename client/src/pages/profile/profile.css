@@ -3,10 +3,67 @@ a:visited { text-decoration: none; }
 /* a:hover { text-decoration: none; } */
 a:active { text-decoration: none; }
 
-.profile {
-    padding: 10px 100px;
+
+.profile-main {
+    /* padding: 50px 100px; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* height: 100vh; */
+    justify-content: space-around;
+    /* overflow: hidden; */
+    text-decoration: none
+}
+
+.profile {
+    /* justify-content: center; */
+    /* padding: 20x; */
+  }
+
+/* .profile-title {
+    justify-content: center;
+} */
+
+.profile-h {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #39603d;
+}
+
+.thought-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.friend-btn{
+    border: none;
+    padding: 15px 50px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:  #39603d;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.friend-btn:hover {
+    background-color: #f1b24a;
+    text-decoration: none;
+}
+
+.friend-list {
+    width: 30%;
+}
+
+  .thought-form {
+    padding-left: -20px;
+    margin: 0  0 0;
+    width: 75%;
+    justify-content: center;
+}
+
+.new-thoughts {
+    display: flex;
+    justify-content: center;
 }

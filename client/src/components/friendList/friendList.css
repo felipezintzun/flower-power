@@ -1,17 +1,30 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+
 .friendList {
     background-color: black;
 }
 
 .friend-btn{
     border: none;
-    padding: 15px;
+    padding: 15px 50px;
     color: white;
     font-weight: 500;
     cursor: pointer;
     background-color:  #39603d;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .friend-btn:hover {
     background-color: #f1b24a;
+    text-decoration: none;
+}
+
+.friend-count {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #39603d;
 }

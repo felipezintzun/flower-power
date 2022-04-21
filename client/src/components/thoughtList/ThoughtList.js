@@ -12,7 +12,7 @@ const ThoughtList = ({ thoughts, title }) => {
 
       <div className="thoughtlist">
 
-      <h3>{title}</h3>
+      <h3 className="fl-tlk-title">{title}</h3>
       {thoughts &&
         thoughts.map(thought => (
 
@@ -25,7 +25,7 @@ const ThoughtList = ({ thoughts, title }) => {
 
               <div className="thought-body">
                   <Link to={`/thought/${thought._id}`}>
-                    <p>{thought.thoughtText}</p>
+                    <p className="thought-body">{thought.thoughtText}</p>
                     <p className="reaction-body">
                       Reactions: {thought.reactionCount} || Click to{' '}
                       {thought.reactionCount ? 'see' : 'start'} Flower Talk
@@ -33,15 +33,17 @@ const ThoughtList = ({ thoughts, title }) => {
                   </Link>
                 </div>
                 
-              <Link className="thought-date"
+              <Link className="thought-user"
                 to={`/profile/${thought.username}`}
                 style={{ fontWeight: 700 }}
-                className="thought-date"
+                className="thought-user"
               >
                 {thought.username}
               
-              </Link>{' '}
+              </Link>
+              <div className="thought-date">{' '}
               posted {thought.createdAt}
+              </div>
             </p>
 
             </div>

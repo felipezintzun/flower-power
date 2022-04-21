@@ -4,7 +4,7 @@
   a:hover { text-decoration: none; }
   
   .thoughts {
-    padding: 100px 100px;
+    padding: 50px 100px;
     display: flex;
     /* height: 100vh; */
     justify-content: space-around;
@@ -19,8 +19,14 @@
   padding: 20x;
 }
 
-.thought-f{
+.thought-f {
   justify-content: center;
+}
+
+.thought-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
   
   /* CARDS */
@@ -50,19 +56,19 @@
     /* font-weight: ; */
   }
   
-  .singlethought {
-    /* padding: 50px 100px;
-    display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
-    /* text-align: center; */
-}
 
 .thought-body {
     font-family: Montserrat, sans-serif;
     color: #39603d;
     margin: 5px 15px;
     padding-bottom: 1%;
+}
+
+.thought-body:hover {
+  font-family: Montserrat, sans-serif;
+  color: #f1b24a;
+  margin: 5px 15px;
+  padding-bottom: 1%;
 }
 
 .thought-header {
@@ -90,4 +96,15 @@
     font-size: 15px;
     margin: 0px 15px;
     padding-bottom: 10px;
+}
+
+.friend-list {
+  width: 30%;
+}
+
+.fl-tlk-title {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #39603d;
 }

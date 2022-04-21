@@ -39,6 +39,16 @@ a:hover { text-decoration: none; }
     text-decoration: none;
 }
 
+.reaction-body:hover {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #f1b24a;
+    font-size: 15px;
+    margin: 0px 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
 .thought-date {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
@@ -47,6 +57,27 @@ a:hover { text-decoration: none; }
     margin: 0px 15px;
     padding-bottom: 10px;
 }
+
+
+.thought-user {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #39603d;
+    font-size: 15px;
+    margin: 0px 15px;
+    padding-bottom: 10px;
+}
+
+.thought-user:hover {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #f1b24a;
+    font-size: 15px;
+    margin: 0px 15px;
+    padding-bottom: 10px;
+}
+
+
 
 .thought-header {
     font-family: Noto Serif, serif;
