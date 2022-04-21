@@ -81,8 +81,9 @@ export const gallery = [
     },
     {
         id: 14,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/spiky-yellow-flower.jpg?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/spiky-yellow-flower.jpg?raw=true",
+        name: "Succulent Flower",
+        description: "",
     },
     {
         id: 15,
