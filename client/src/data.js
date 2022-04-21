@@ -93,13 +93,15 @@ export const gallery = [
     },
     {
         id: 16,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/berries.jpg?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/berries.jpg?raw=true",
+        name: "Berries",
+        description: "",
     },
     {
         id: 17,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/tall-succulent.jpg?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/tall-succulent.jpg?raw=true",
+        name: "Tall Succulent",
+        description: "",
     },
     {
         id: 18,
