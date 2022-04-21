@@ -105,13 +105,16 @@ export const gallery = [
     },
     {
         id: 18,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/succulent-flower.jpg?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/flowerpot-shelf.jpg?raw=true",
+        name: "Flowerpot Shelf (Various)",
+        description: "",
     },
     {
         id: 19,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/flowerpot-shelf.JPG?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/succulent-flower.jpg?raw=true",
+        name: "Succulent flower",
+        description: "",
     },
+
 
     ];
