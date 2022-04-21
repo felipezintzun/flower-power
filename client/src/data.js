@@ -61,42 +61,4 @@ export const gallery = [
         name: "Coreopsis, Mouse-Ear",
         description: "My favorite of the...",
     },
-    {
-        id: 11,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/marigolds.jpg?raw=true",
-        name: "Marigold",
-        description: "Marigolds are the best to...",
-    },
-    {
-        id: 12,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/brown-eyed-susans.jpg?raw=true",
-        name: "Brown Eyed Susan",
-        description: "This is a very common...",
-    },
-    {
-        id: 13,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/pink-flower.jpg?raw=true",
-        name: "Pink Flower",
-        description: "Very interesting flower I saw...",
-    },
-    {
-        id: 14,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/spiky-yellow-flower.jpg?raw=true",
-        name: "Succulent Flower",
-        description: "I think of Texas when...",
-    },
-    {
-        id: 15,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/milk-thistle.jpg?raw=true",
-        name: "Milk Thistle",
-        description: "Is this plant beautiful or what?",
-    },
-
-    {
-        id: 19,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/succulent-flower.jpg?raw=true",
-        name: "Succulent flower",
-        description: "One of the many succulents...",
-    },
     
-    ];
