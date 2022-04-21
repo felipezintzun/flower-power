@@ -87,8 +87,9 @@ export const gallery = [
     },
     {
         id: 15,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/pics/client/src/img/milk-thistle.jpg?raw=true",
-        link: "",
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/milk-thistle.jpg?raw=true",
+        name: "Milk Thistle",
+        description: "",
     },
     {
         id: 16,
