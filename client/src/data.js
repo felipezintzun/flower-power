@@ -62,3 +62,4 @@ export const gallery = [
         description: "My favorite of the...",
     },
     
+    ];
