@@ -92,29 +92,10 @@ export const gallery = [
         description: "Beautiful and has many health benefits",
     },
     {
-        id: 16,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/berries.jpg?raw=true",
-        name: "Berries",
-        description: "I assume these are berries. Won't try to eat them though lol",
-    },
-    {
-        id: 17,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/tall-succulent.jpg?raw=true",
-        name: "Tall Succulent",
-        description: "Tallest succulent I've ever seen!",
-    },
-    {
-        id: 18,
-        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/flowerpot-shelf.jpg?raw=true",
-        name: "Flowerpot Shelf (Various)",
-        description: "My 1st successful garden. Thanks for the tips everyone!",
-    },
-    {
         id: 19,
         img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/succulent-flower.jpg?raw=true",
         name: "Succulent flower",
         description: "Didn't know succulents could have flowers. So pretty!",
     },
-
 
     ];

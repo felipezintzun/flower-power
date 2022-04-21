@@ -100,3 +100,37 @@ textarea {
 .submit-btn:hover {
     background-color: #f1b24a;
 }
+
+.i-right {
+    flex: 1;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    padding-right: 30px;
+}
+
+.i-card {
+    width: 70%;
+    height: 70vh;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.i-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+
+.i-card.bg {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    width: 100%;
+    background-color: #f1b24a;
+}
