@@ -61,5 +61,41 @@ export const gallery = [
         name: "Coreopsis, Mouse-Ear",
         description: "My favorite of the...",
     },
-    
+    {
+        id: 11,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/marigolds.jpg?raw=true",
+        name: "Marigold",
+        description: "Taken in Mexico City during Day of the Dead. They were planted everywhere!",
+    },
+    {
+        id: 12,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/brown-eyed-susans.jpg?raw=true",
+        name: "Brown Eyed Susan",
+        description: "Wild brown-eyed Susans. Very similar to sunflowers except for the coney center",
+    },
+    {
+        id: 13,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/pink-flower.jpg?raw=true",
+        name: "Pink Flower",
+        description: "Not sure what type of flower this is, but it's beautiful!",
+    },
+    {
+        id: 14,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/spiky-yellow-flower.jpg?raw=true",
+        name: "Spiky Flower",
+        description: "Does anyone know what this is called? It's a succulent but has piky flowers",
+    },
+    {
+        id: 15,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/milk-thistle.jpg?raw=true",
+        name: "Milk Thistle",
+        description: "Beautiful and has many health benefits",
+    },
+    {
+        id: 19,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/succulent-flower.jpg?raw=true",
+        name: "Succulent flower",
+        description: "Didn't know succulents could have flowers. So pretty!",
+    },
+
     ];

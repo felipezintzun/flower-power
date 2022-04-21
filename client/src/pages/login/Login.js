@@ -3,6 +3,7 @@ import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../../utils/mutations.js';
 import Auth from '../../utils/auth.js';
 import "./login.css";
+import Woman from "../../img/woman-growing-plants.jpg";
 
 const Login = (props) => {
   const [formState, setFormState] = useState({ email: '', password: '' });
@@ -35,9 +36,15 @@ const Login = (props) => {
 
   return (
     <main className="login">
+
       <div className="login-wrapper">
       <div className="lwrapper-left">
-        <img src="https://media.istockphoto.com/photos/everyday-should-be-earth-day-picture-id869262278?k=20&m=869262278&s=612x612&w=0&h=X7D1hW44LxOroe8HJ90V8iiNlOKriWrkeuayLoHzLiU="></img>
+      
+      <div className="i-right">
+                <div className="i-card bg"></div>
+                    <div className="i-card">
+                        <img src={Woman} alt="" className="i-image" />
+                    </div>
       </div>
 
         <div className='lwrapper-right'>
@@ -70,6 +77,7 @@ const Login = (props) => {
               </button>
             </form>
             {error && <div>Login failed</div>}
+          </div>
           </div>
         </div>
       </div>
