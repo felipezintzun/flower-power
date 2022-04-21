@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    height: 8vh;
+    background-color: #39603d;
+    justify-content: center;
+}
+
+.footer-item {
+    font-family: Noto Serif, serif;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: right;
+    padding-right: 50px
+}

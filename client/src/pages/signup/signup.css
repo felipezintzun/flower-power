@@ -1,0 +1,136 @@
+.signup {
+    height: 100vh;
+    position: relative;
+}
+
+/* .contact-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #02353c;
+    position: absolute;
+} */
+
+.signup-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.swrapper-left {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.swrapper-right {
+    /* background-color: black; */
+    flex: 1;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.signup-title {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #39603d;
+
+}
+
+.contact-info {
+    width: 100%;
+   
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.signup-description {
+    font-family: Montserrat, sans-serif;
+    color: #39603d;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.submit-btn{
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:  #39603d;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #f1b24a;
+}
+
+.i-right {
+    flex: 1;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    padding-right: 30px;
+}
+
+.i-card {
+    width: 70%;
+    height: 70vh;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.i-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+
+.i-card.bg {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    width: 100%;
+    background-color: #f1b24a;
+}

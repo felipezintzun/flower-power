@@ -1,0 +1,86 @@
+.home {
+    display: flex;
+    height: 100vh;
+    /* background-color: #3fd0c9; */
+}
+
+.h-left {
+    flex: 1;
+    padding: 25px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.h-right {
+    flex: 1;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.h-left-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h-intro {
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #39603d;
+}
+
+.h-description {
+    padding: 10px 0;
+    font-family: Montserrat, sans-serif;
+    color: #39603d;
+
+}
+
+
+.i-image {
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    
+}
+
+.icon-wrapper {
+    row-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 20px;
+    
+    /* justify-content: space-between; */
+    /* min-height: 20px; */
+ }
+
+.i-icon {
+    text-decoration: none;
+    color: white;
+    /* padding-top: 20px; */
+    /* padding-right: 15px; */
+}
+
+.icon-cont {
+    display: flex;
+    background-color: #f1b24a;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
