@@ -69,13 +69,13 @@ const handleChange = event => {
         >
 
       <textarea
+        className="thought-card thought-header thought-body form-input col-12 col-md-9"
         placeholder="Here's a new thought..."
         value={thoughtText}
-        className="form-input col-12 col-md-9"
         onChange={handleChange}
         ></textarea>
 
-        <button className="btn col-12 col-md-3" type="submit">
+        <button className="submit-btn col-12 col-md-3" type="submit">
           Submit
         </button>
       </form>
