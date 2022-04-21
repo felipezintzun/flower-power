@@ -1,0 +1,17 @@
+.friendList {
+    background-color: black;
+}
+
+.friend-btn{
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:  #39603d;
+    border-radius: 5px;
+}
+
+.friend-btn:hover {
+    background-color: #f1b24a;
+}

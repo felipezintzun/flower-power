@@ -1,11 +1,26 @@
 
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  
   .thoughts {
-    /* padding: 50px 100px; */
+    padding: 100px 100px;
     display: flex;
     /* height: 100vh; */
-    justify-content: center;
+    justify-content: space-around;
     overflow: hidden;
+    text-decoration: none;
+
     /* background-color: #3fd0c9; */
+}
+
+.thought-f-main {
+  justify-content: center;
+  padding: 20x;
+}
+
+.thought-f{
+  justify-content: center;
 }
   
   /* CARDS */

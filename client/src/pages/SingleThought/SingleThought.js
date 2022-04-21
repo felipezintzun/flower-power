@@ -25,6 +25,8 @@ const SingleThought = props => {
   return (
     <div className="singlethought">
       <div className="thought-card">
+
+      
         <p className="thought-header">
 
         <div className="thought-body">
@@ -37,6 +39,7 @@ const SingleThought = props => {
             {thought.username}
           </span>{' '}
           posted {thought.createdAt}</div>
+          
         </p>
         
       </div>

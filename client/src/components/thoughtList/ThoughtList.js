@@ -4,39 +4,55 @@ import "./thoughtList.css";
 
 const ThoughtList = ({ thoughts, title }) => {
   if (!thoughts.length) {
-    return <h3>No Thoughts Yet</h3>;
+    return <h3>Start Some Flower Talk</h3>;
   }
 
   return (
     <div>
+
+      <div className="thoughtlist">
+
       <h3>{title}</h3>
       {thoughts &&
         thoughts.map(thought => (
-          <div key={thought._id} className="card mb-3">
 
-          <p className="card-header">
-              <Link
+          
+          <div key={thought._id} className="thought-card">
+
+          <div className="thought-date">
+
+          <p className="thought-header">
+
+              <div className="thought-body">
+                  <Link to={`/thought/${thought._id}`}>
+                    <p>{thought.thoughtText}</p>
+                    <p className="reaction-body">
+                      Reactions: {thought.reactionCount} || Click to{' '}
+                      {thought.reactionCount ? 'see' : 'start'} Flower Talk
+                    </p>
+                  </Link>
+                </div>
+                
+              <Link className="thought-date"
                 to={`/profile/${thought.username}`}
                 style={{ fontWeight: 700 }}
-                className="text-light"
+                className="thought-date"
               >
                 {thought.username}
+              
               </Link>{' '}
-              thought on {thought.createdAt}
+              posted {thought.createdAt}
             </p>
 
-           <div className="card-body">
-            <Link to={`/thought/${thought._id}`}>
-              <p>{thought.thoughtText}</p>
-              <p className="mb-0">
-                Reactions: {thought.reactionCount} || Click to{' '}
-                {thought.reactionCount ? 'see' : 'start'} the discussion!
-              </p>
-            </Link>
-          </div>
+            </div>
+
+        
           
           </div>
+          
         ))}
+
+      </div>
     </div>
   );
 };

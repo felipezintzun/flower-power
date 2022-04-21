@@ -26,9 +26,9 @@ const Thoughts = () => {
 
     <div className="thoughts">
 
-      <div className="reaction-form justify-space-between">
+      <div className="thought-f-main">
         {loggedIn && (
-              <div className="col-12 mb-3">
+              <div className="thought-f">
                 <ThoughtForm />
               </div>
             )}
@@ -36,13 +36,13 @@ const Thoughts = () => {
           {loading ? (
             <div>Loading...</div>
           ) : (
-            <ThoughtList thoughts={thoughts} title="Some Feed for Thought(s)..." />
+            <ThoughtList thoughts={thoughts} title="Join The Flower Talk" />
           )}
 
         </div>
 
           {loggedIn && userData ? (
-            <div className="singlethought col-lg-3 mb-3">
+            <div className="singlethought">
               <FriendList
                 username={userData.me.username}
                 friendCount={userData.me.friendCount}
