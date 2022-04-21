@@ -56,30 +56,29 @@ const handleChange = event => {
   });
 
   return (
-    <div>
-
-        <p className={`character-text ${characterCount === 280 || error ? 'text-error' : ''}`}>
-        Character Count: {characterCount}/280
-        {error && <span className="ml-2">Something went wrong...</span>}
-        </p>
-
-        <form
-            className="flex-row justify-center justify-space-between-md align-stretch"
-            onSubmit={handleFormSubmit}
-        >
+    <div className="reaction-box">
+    <form
+      className="flex-row justify-center justify-space-between-md align-stretch"
+      onSubmit={handleFormSubmit}>
 
       <textarea
-        className="thought-card thought-header thought-body form-input col-12 col-md-9"
+        className="reaction-text"
         placeholder="Here's a new thought..."
         value={thoughtText}
-        onChange={handleChange}
-        ></textarea>
+        onChange={handleChange}>
 
-        <button className="submit-btn col-12 col-md-3" type="submit">
+      </textarea>
+      <div className="reaction-submit">
+        <button className="submit-btn" type="submit">
           Submit
         </button>
-      </form>
-    </div>
+        <p className={`character-text ${characterCount === 280 || error ? 'text-error' : ''}`}>
+            Character Count: {characterCount}/280
+            {error && <span className="ml-2">Something went wrong...</span>}
+        </p>
+      </div>
+    </form>
+  </div>
   );
 };
 

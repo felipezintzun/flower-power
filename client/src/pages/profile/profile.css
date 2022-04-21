@@ -2,3 +2,56 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 /* a:hover { text-decoration: none; } */
 a:active { text-decoration: none; }
+
+.profile {
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+    margin: 20px 50px;
+    /* padding: 0px 0px 23px 0px; */
+    
+}
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.submit-btn{
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:  #39603d;
+    border-radius: 5px;
+}
+.submit-btn:hover {
+    background-color: #f1b24a;
+}
+
+.profile {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.comment {
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    width: 117%;
+}

@@ -40,9 +40,10 @@ const SingleThought = props => {
         </p>
         
       </div>
-
-      {thought.reactionCount > 0 && <ReactionList reactions={thought.reactions} />}
-      {Auth.loggedIn() && <ReactionForm thoughtId={thought._id} />}
+      <div className="comment">
+        {thought.reactionCount > 0 && <ReactionList reactions={thought.reactions} />}
+        {Auth.loggedIn() && <ReactionForm thoughtId={thought._id} />}
+      </div>
     </div>
   );
 };

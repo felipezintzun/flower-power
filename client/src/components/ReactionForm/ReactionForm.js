@@ -58,9 +58,7 @@ const handleFormSubmit = async (event) => {
             Character Count: {characterCount}/280
             {error && <span className="ml-2">Something went wrong...</span>}
           </p>
-
         </div>
-
       </form>
     </div>
   );

@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/felipezintzun/flower-power/issues"
   },
-  "homepage": "https://github.com/felipezintzun/flower-power#readme"
+  "homepage": "https://github.com/felipezintzun/flower-power#readme",
+  "dependencies": {
+    "babel-jest": "^26.6.0"
+  }
 }

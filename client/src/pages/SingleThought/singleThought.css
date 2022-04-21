@@ -1,4 +1,6 @@
 .singlethought {
+    height: 100vh;
+    position: relative;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
@@ -38,4 +40,10 @@
     font-size: 15px;
     margin: 0px 15px;
     padding-bottom: 10px;
+}
+
+.comment {
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    width: 11%;
 }
