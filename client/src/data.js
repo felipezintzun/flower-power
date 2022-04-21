@@ -61,5 +61,60 @@ export const gallery = [
         name: "Coreopsis, Mouse-Ear",
         description: "",
     },
+    {
+        id: 11,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/marigolds.jpg?raw=true",
+        name: "Marigold",
+        description: "",
+    },
+    {
+        id: 12,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/brown-eyed-susans.jpg?raw=true",
+        name: "Brown Eyed Susan",
+        description: "",
+    },
+    {
+        id: 13,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/pink-flower.jpg?raw=true",
+        name: "Pink Flower",
+        description: "",
+    },
+    {
+        id: 14,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/spiky-yellow-flower.jpg?raw=true",
+        name: "Succulent Flower",
+        description: "",
+    },
+    {
+        id: 15,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/milk-thistle.jpg?raw=true",
+        name: "Milk Thistle",
+        description: "",
+    },
+    {
+        id: 16,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/berries.jpg?raw=true",
+        name: "Berries",
+        description: "",
+    },
+    {
+        id: 17,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/tall-succulent.jpg?raw=true",
+        name: "Tall Succulent",
+        description: "",
+    },
+    {
+        id: 18,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/flowerpot-shelf.jpg?raw=true",
+        name: "Flowerpot Shelf (Various)",
+        description: "",
+    },
+    {
+        id: 19,
+        img: "https://github.com/felipezintzun/flower-power/blob/feature/judy2/client/src/img/succulent-flower.jpg?raw=true",
+        name: "Succulent flower",
+        description: "",
+    },
+
 
     ];
