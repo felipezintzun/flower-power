@@ -30,5 +30,7 @@ Javascript, React, Apollo,  GraphQL, Node.js, Express.js, MongoDB, Mongoose ODM,
 
 ## Links
 * GitHub Repository: https://github.com/felipezintzun/flower-power
+* Deployed Website: https://flowerpowerrr.herokuapp.com/
 
 ## Preview
+![flower power preview](https://user-images.githubusercontent.com/93234615/164577898-d9f7e481-0436-487b-a9f0-6fe11980e35b.png)
